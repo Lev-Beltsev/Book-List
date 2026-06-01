@@ -25,3 +25,27 @@ h1 {
     color: #333; 
     margin-bottom: 25px; 
 }
+
+.add-book-form { 
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 25px;
+}
+
+.add-book-form input { 
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd; 
+    font-size: 16px; 
+    border-radius: 8px;
+}
+
+.add-book-form button {
+    padding: 12px 24px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
